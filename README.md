@@ -1,5 +1,7 @@
 # NYC-complaints
-[Replace this page with your README]
+
+**[Replace this page with your README]**
+
 This is the data dashboard challenge for the Winter 2025 BIS 412 Advanced Data Visualization course. The challenge uses data from New York City's 311 complaint data to visualize the temporal and spatial aspects of common issues raised by residents.
 
 # Overview
@@ -8,16 +10,16 @@ Challenge created by and made for the BIS 412 Advanced Data Visualization course
 
 - 📊 Challenge created by and made for the Winter 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell.
 - ✍️ Authored by
-    - Yared A [@yasefa0>]<https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/yasefa0>,
+    - Yared A [@yasefa0)](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/yasefa0),
     - Sakaria D
     - Mohamed M 
 - 🔍 Challenge review committee:
-    - Yared A. [@yasefa0>]<https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/yasefa0>
-    - Micheal A [@hanmich]<https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/hanmich>
-    - Kathy V. [@vukathy031]<https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/vukathy031>
-    - Mia C. [@absoluteconfusion]<https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/absoluteconfusion>
-    - Branden W. [@RedNovaUltimate]<https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/RedNovaUltimate>
-- 🔍 Committee chair: Yared A. [@yasefa0>]<https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/yasefa0>
+    - Yared A. [@yasefa0](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/yasefa0)
+    - Micheal A [@hanmich](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/hanmich)
+    - Kathy V. [@vukathy031](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/vukathy031)
+    - Mia C. [@absoluteconfusion](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/absoluteconfusion)
+    - Branden W. [@RedNovaUltimate](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/RedNovaUltimate)
+- 🔍 Committee chair: Yared A. [@yasefa0](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/yasefa0)
 - 🛠️ Edited and supervised by Prof. Caleb Trujillo
 
 # Description
@@ -121,11 +123,11 @@ The dataset is invaluable for public sector analysis, providing real-time insigh
 ## Resources
 Given the size of the data and the different platforms available, the OpenNewYork offers several ways to access it. Some pathways are listed below:
 
-- **OData** options <https://support.socrata.com/hc/en-us/articles/115005364207-Access-Data-Insights-Data-using-OData>
-- **Socrata** documentation <https://dev.socrata.com/>
-    - Getting started <https://dev.socrata.com/consumers/getting-started.html>
-- **RSocrata** package <https://cran.r-project.org/web/packages/RSocrata/RSocrata.pdf>
-    - Examples <https://rpubs.com/briankusiak/lab_ex_1>
+- **OData** options (https://support.socrata.com/hc/en-us/articles/115005364207-Access-Data-Insights-Data-using-OData>
+- **Socrata** documentation (https://dev.socrata.com/>
+    - Getting started (https://dev.socrata.com/consumers/getting-started.html>
+- **RSocrata** package (https://cran.r-project.org/web/packages/RSocrata/RSocrata.pdf>
+    - Examples (https://rpubs.com/briankusiak/lab_ex_1>
     - First 100 rows
     - `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
 
