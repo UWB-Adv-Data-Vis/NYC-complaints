@@ -6,11 +6,11 @@ This is the data dashboard challenge for the Winter 2025 BIS 412 Advanced Data V
 
 Challenge created by and made for the BIS 412 Advanced Data Visualization course at the University of Washington Bothell.
 
-📊 Challenge created by and made for the Winter 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell.
-✍️ Authored by Yared A, Sakaria D, and Mohamed M 
-🔍 Challenge review committee: Yared A., 
-🔍 Committee chair: Yared A.
-🛠️ Edited and supervised by Prof. Caleb Trujillo
+- 📊 Challenge created by and made for the Winter 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell.
+- ✍️ Authored by Yared A, Sakaria D, and Mohamed M 
+- 🔍 Challenge review committee: Yared A., 
+- 🔍 Committee chair: Yared A.
+- 🛠️ Edited and supervised by Prof. Caleb Trujillo
 
 # Description
 
