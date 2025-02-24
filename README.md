@@ -20,6 +20,7 @@ The dashboards aim to present exploratory data analysis or narrative-driven insi
 ## The tasks to address our challenge have two options:
 
 ### Challenge A: Exploratory visualization
+
 Create a platform that gives a broad overview of the data and supports user choice to explore specifics and details.
 
 -    Make an interactive dashboard.
@@ -28,7 +29,7 @@ Create a platform that gives a broad overview of the data and supports user choi
 -    Provide a geographical map of where filtered complaints occur
 
 ### Challenge B: Storytelling through visualization
-Create a platform that focuses on an issue, problem, or question, invites users to learn more, and presents specifics and details through user interactions
+Create a platform that focuses on an issue, problem, or question, invites users to learn more, and presents specifics and details through user interactions.
 
 – Identify a central question or issue to tell a data-driven story about complaints
 - Create an interactive dashboard that leads users through a story
@@ -38,6 +39,7 @@ Create a platform that focuses on an issue, problem, or question, invites users 
 
 ## Example Analytical Questions
 The visual analytics techniques implemented in this dashboard should address the following questions:
+
 - Complaint Trends:
     - What are the most common types of complaints in NYC in 2024?
     - How do these complaint types vary across boroughs and change month by month?
@@ -51,9 +53,11 @@ The visual analytics techniques implemented in this dashboard should address the
 By answering these questions in an exploratory or narrative fashion, the dashboard helps uncover service bottlenecks and inefficiencies while equipping stakeholders with the insights they need to take targeted action. With this data, they can implement strategic improvements to streamline operations and enhance efficiency.
  
 # Proposed Project Plan
+
 The project will span 2-3 weeks with the following phases and tasks:
 
 1: Data Exploration & Design Ideation
+
 -	Data Import
   -	Import the 311 dataset using an API or RSocratic with a filter to dates in the last year to represent
   - Clean the pre-processing of the data (e.g., parsing dates for created_date and closed_date).
@@ -63,9 +67,11 @@ The project will span 2-3 weeks with the following phases and tasks:
     - Define key metrics and determine which visualizations best address the purpose
 - Meetings:
   -	Discuss roles and responsibilities and set communication channels among team members.
+
 2. Visualization Prototyping
   -	Great rough ggplots
   -	Iterative feedback
+
 3. Dashboard Build & Integration
     - Dashboard Development:
         - Integrate the refined visualizations into an interactive dashboard framework. 
@@ -73,6 +79,7 @@ The project will span 2-3 weeks with the following phases and tasks:
         - User Interface & Aesthetics:
         - Focus on the dashboard's overall layout, color schemes, and responsiveness.
         - Incorporate the sidebar with filtering options and a dynamic header.
+     
 4: Testing, Feedback, and Deployment
 - User Testing & Feedback Collection:
     -     Share the dashboard with a small group of target users (stakeholders, peers) to collect feedback on usability and insights.
@@ -83,10 +90,35 @@ The project will span 2-3 weeks with the following phases and tasks:
 - Documentation & Final Presentation:
     - Document the design process, coding decisions, and any challenges faced.
     - Prepare a final presentation outlining the project’s insights and outcomes.
+ 
 Possible Team Roles
 
 -	Everyone: Develop one original graphic data visualization
 -	Project Manager: Oversees the timeline, Git teams, and Issues and coordinates group meetings.
 -	Data Analyst/Engineer: Handles data cleaning, transformation, and calculations.
 -	Visualization Specialist: Supports static and interactive visualizations.
+
+
+# Background
+## Data Biography
+The dataset used for this challenge is the "311 Service Requests from 2010 to Present" dataset provided by NYC OpenData. Updated daily, this comprehensive dataset includes over 39 million rows, each representing a unique service request (filtered here to focus on 2024). For this analysis, we are concentrating on a subset of fields critical for understanding and mapping car-related issues and broader service request trends:
+- Address Type, City, and Landmark: These fields help categorize the location and context of the service request.
+- Status & Due Date: Provide insights into the progress and timeliness of service resolution.
+- Borough & Incident Zip: Essential for geographic visualization and borough-level comparisons.
+- Open Data Channel Type: Indicates how requests are submitted, which helps understand citizen engagement.
+- Vehicle Type & Agency: Offer details on the nature of the complaint and the responsible agency.
+- Complaint Type & Descriptor: These fields form the basis for analyzing the nature of the issues reported.
+- Unique Key, Created Date, Closed Date, Resolution Description: Serve as identifiers and time stamps to calculate response times and track the lifecycle of each request.
+  
+The dataset is invaluable for public sector analysis, providing real-time insights into community needs and government responsiveness. It supports evidence-based decision-making for improving service delivery and urban management in NYC.
+
+## Resources
+OpenNewYork offers several ways to access the data. Given the size of the data. Some pathways are listed below.
+
+RSocrata
+-
+ 
+## References
+311 (2025) 311 service requests from 2010 to present: NYC Open Data, 311 Service Requests from 2010 to Present | NYC Open Data. Available at: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 (Accessed: 13 February 2025). 
+Andrews, C. (2024) From calls to insights: Analyzing   service requests in Calgary, Medium. Available at: https://medium.com/@carolyn.A13/from-calls-to-insights-analyzing-311-service-requests-in-calgary-bc24d917d5c9 (Accessed: 13 February 2025). 
 
