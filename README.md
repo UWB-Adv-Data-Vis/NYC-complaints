@@ -10,17 +10,17 @@ Challenge created by and made for the BIS 412 Advanced Data Visualization course
 
 - 📊 Challenge created by and made for the Winter 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell.
 - ✍️ Authored by
-    - Yared A [@yasefa0](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/yasefa0),
+    - Yared A [@yasefa0](https://github.com/yasefa0),
     - Sakaria D
     - Mohamed M 
 - 🔍 Challenge review committee:
-    - Yared A. [@yasefa0](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/yasefa0)
-    - Micheal A [@hanmich](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/hanmich)
-    - Kathy V. [@vukathy031](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/vukathy031)
-    - Mia C. [@absoluteconfusion](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/absoluteconfusion)
-    - Branden W. [@RedNovaUltimate](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/RedNovaUltimate)
-- 🔍 Committee chair: Yared A. [@yasefa0](https://github.com/orgs/UWB-Adv-Data-Vis-2025-Wi-A/people/yasefa0)
-- 🛠️ Edited and supervised by Prof. Caleb Trujillo
+    - Yared A. [@yasefa0](https://github.com/yasefa0)
+    - Micheal A [@hanmich](https://github.com/hanmich)
+    - Kathy V. [@vukathy031](https://github.com/vukathy031)
+    - Mia C. [@absoluteconfusion](https://github.com/absoluteconfusion)
+    - Branden W. [@RedNovaUltimate](https://github.com/RedNovaUltimate)
+- 🔍 Committee chair: Yared A. [@yasefa0](https://github.com/yasefa0)
+- 🛠️ Edited and supervised by Prof. Caleb Trujillo [@calebtru](https://github.com/calebtru)
 
 # Description
 
