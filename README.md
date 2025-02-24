@@ -123,7 +123,7 @@ OpenNewYork offers several ways to access the data. Given the size of the data. 
     
 **RSocrata** package <https://cran.r-project.org/web/packages/RSocrata/RSocrata.pdf>
     - Examples <https://rpubs.com/briankusiak/lab_ex_1>
-    - First 100 row `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
+    - First 100 rows `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
 
 ## References
 311 (2025) 311 service requests from 2010 to present: NYC Open Data, 311 Service Requests from 2010 to Present | NYC Open Data. Available at: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 (Accessed: 13 February 2025). 
