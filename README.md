@@ -57,8 +57,7 @@ By answering these questions in an exploratory or narrative fashion, the dashboa
 
 The project will span 2-3 weeks with the following phases and tasks:
 
-1: Data Exploration & Design Ideation
-
+1. Data Exploration & Design Ideation
 -	Data Import
   -	Import the 311 dataset using an API or RSocratic with a filter to dates in the last year to represent
   - Clean the pre-processing of the data (e.g., parsing dates for created_date and closed_date).
@@ -68,22 +67,19 @@ The project will span 2-3 weeks with the following phases and tasks:
     - Define key metrics and determine which visualizations best address the purpose
 - Meetings:
   -	Discuss roles and responsibilities and set communication channels among team members.
-
 2. Visualization Prototyping
   -	Great rough ggplots
   -	Iterative feedback
-
 3. Dashboard Build & Integration
     - Dashboard Development:
         - Integrate the refined visualizations into an interactive dashboard framework. 
         - Develop interactive filtering and drill-down capabilities.
         - User Interface & Aesthetics:
         - Focus on the dashboard's overall layout, color schemes, and responsiveness.
-        - Incorporate the sidebar with filtering options and a dynamic header.
-     
-4: Testing, Feedback, and Deployment
+        - Incorporate the sidebar with filtering options and a dynamic header.     
+4. Testing, Feedback, and Deployment
 - User Testing & Feedback Collection:
-    -     Share the dashboard with a small group of target users (stakeholders, peers) to collect feedback on usability and insights.
+    - Share the dashboard with a small group of target users (stakeholders, peers) to collect feedback on usability and insights.
     - Identify and fix any bugs or usability issues.
 - Final Adjustments & Deployment:
     - Finalize the dashboard design, ensuring all visualizations and interactive elements work as intended.
@@ -103,6 +99,7 @@ Possible Team Roles
 # Background
 ## Data Biography
 The dataset used for this challenge is the "311 Service Requests from 2010 to Present" dataset provided by NYC OpenData. Updated daily, this comprehensive dataset includes over 39 million rows, each representing a unique service request (filtered here to focus on 2024). For this analysis, we are concentrating on a subset of fields critical for understanding and mapping car-related issues and broader service request trends:
+
 - Address Type, City, and Landmark: These fields help categorize the location and context of the service request.
 - Status & Due Date: Provide insights into the progress and timeliness of service resolution.
 - Borough & Incident Zip: Essential for geographic visualization and borough-level comparisons.
@@ -122,8 +119,8 @@ OpenNewYork offers several ways to access the data. Given the size of the data. 
     - Getting started <https://dev.socrata.com/consumers/getting-started.html>
     
 **RSocrata** package <https://cran.r-project.org/web/packages/RSocrata/RSocrata.pdf>
-    - Examples <https://rpubs.com/briankusiak/lab_ex_1>
-    - First 100 rows `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
+- Examples <https://rpubs.com/briankusiak/lab_ex_1>
+- First 100 rows `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
 
 ## References
 311 (2025) 311 service requests from 2010 to present: NYC Open Data, 311 Service Requests from 2010 to Present | NYC Open Data. Available at: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 (Accessed: 13 February 2025). 
