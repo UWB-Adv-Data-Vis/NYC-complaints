@@ -38,7 +38,7 @@ Create a platform that focuses on an issue, problem, or question, invites users 
 -    Provide insights into the missing data
 -    Enable users to download their data and images after their interactions.
 
-## Example Analytical Questions
+### Example Analytical Questions
 The visual analytics techniques implemented in this dashboard should address the following questions:
 
 - Complaint Trends:
@@ -118,9 +118,9 @@ Given the size of the data and the different platforms available, the OpenNewYor
     - Getting started <https://dev.socrata.com/consumers/getting-started.html>
 - **RSocrata** package <https://cran.r-project.org/web/packages/RSocrata/RSocrata.pdf>
     - Examples <https://rpubs.com/briankusiak/lab_ex_1>
-    - First 100 rows `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
+    - First 100 rows
+    - `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
 
 ## References
 311 (2025) 311 service requests from 2010 to present: NYC Open Data, 311 Service Requests from 2010 to Present | NYC Open Data. Available at: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 (Accessed: 13 February 2025). 
-Andrews, C. (2024) From calls to insights: Analyzing   service requests in Calgary, Medium. Available at: https://medium.com/@carolyn.A13/from-calls-to-insights-analyzing-311-service-requests-in-calgary-bc24d917d5c9 (Accessed: 13 February 2025). 
-
+Andrews, C. (2024) From calls to insights: Analyzing service requests in Calgary, Medium. Available at: https://medium.com/@carolyn.A13/from-calls-to-insights-analyzing-311-service-requests-in-calgary-bc24d917d5c9 (Accessed: 13 February 2025). 
