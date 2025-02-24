@@ -32,11 +32,11 @@ Create a platform that gives a broad overview of the data and supports user choi
 ### Challenge B: Storytelling through visualization
 Create a platform that focuses on an issue, problem, or question, invites users to learn more, and presents specifics and details through user interactions.
 
-– Identify a central question or issue to tell a data-driven story about complaints
-- Create an interactive dashboard that leads users through a story
-- Find correlations and co-occurrences of different variables
-- Provide insights into the missing data
-- Provide some tools for users to download their data and images
+–    Identify a central question or issue to tell a data-driven story about complaints
+-    Create an interactive dashboard that leads users through a story
+-    Find correlations and co-occurrences of different variables
+-    Provide insights into the missing data
+-    Enable users to download their data and images after their interactions.
 
 ## Example Analytical Questions
 The visual analytics techniques implemented in this dashboard should address the following questions:
@@ -111,16 +111,14 @@ The dataset used for this challenge is the "311 Service Requests from 2010 to Pr
 The dataset is invaluable for public sector analysis, providing real-time insights into community needs and government responsiveness. It supports evidence-based decision-making for improving service delivery and urban management in NYC.
 
 ## Resources
-OpenNewYork offers several ways to access the data. Given the size of the data. Some pathways are listed below.
+Given the size of the data and the different platforms available, the OpenNewYork offers several ways to access it. Some pathways are listed below:
 
-**OData** options <https://support.socrata.com/hc/en-us/articles/115005364207-Access-Data-Insights-Data-using-OData>
-
-**Socrata** documentation <https://dev.socrata.com/>
+- **OData** options <https://support.socrata.com/hc/en-us/articles/115005364207-Access-Data-Insights-Data-using-OData>
+- **Socrata** documentation <https://dev.socrata.com/>
     - Getting started <https://dev.socrata.com/consumers/getting-started.html>
-    
-**RSocrata** package <https://cran.r-project.org/web/packages/RSocrata/RSocrata.pdf>
-- Examples <https://rpubs.com/briankusiak/lab_ex_1>
-- First 100 rows `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
+- **RSocrata** package <https://cran.r-project.org/web/packages/RSocrata/RSocrata.pdf>
+    - Examples <https://rpubs.com/briankusiak/lab_ex_1>
+    - First 100 rows `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
 
 ## References
 311 (2025) 311 service requests from 2010 to present: NYC Open Data, 311 Service Requests from 2010 to Present | NYC Open Data. Available at: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 (Accessed: 13 February 2025). 
