@@ -117,12 +117,13 @@ The dataset is invaluable for public sector analysis, providing real-time insigh
 OpenNewYork offers several ways to access the data. Given the size of the data. Some pathways are listed below.
 
 **OData** options <https://support.socrata.com/hc/en-us/articles/115005364207-Access-Data-Insights-Data-using-OData>
+
 **Socrata** documentation <https://dev.socrata.com/>
     - Getting started <https://dev.socrata.com/consumers/getting-started.html>
+    
 **RSocrata** package <https://cran.r-project.org/web/packages/RSocrata/RSocrata.pdf>
     - Examples <https://rpubs.com/briankusiak/lab_ex_1>
-    - First 100 row 
-    `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
+    - First 100 row `data <- read.socrata("https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=100")`
 
 ## References
 311 (2025) 311 service requests from 2010 to present: NYC Open Data, 311 Service Requests from 2010 to Present | NYC Open Data. Available at: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 (Accessed: 13 February 2025). 
