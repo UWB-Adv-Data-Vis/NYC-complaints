@@ -11,11 +11,11 @@ Challenge created by and made for the BIS 412 Advanced Data Visualization course
 - 📊 Challenge created by and made for the Winter 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell.
 - ✍️ Authored by
     - Yared A [@yasefa0](https://github.com/yasefa0),
-    - Sakaria D
-    - Mohamed M 
+    - Sakaria D [@sakariadirie](https://github.com/sakariadirie),
+    - Mohamed M  [@mahammed0](https://github.com/mahammed0)
 - 🔍 Challenge review committee:
     - Yared A. [@yasefa0](https://github.com/yasefa0)
-    - Micheal A [@hanmich](https://github.com/hanmich)
+    - Michael H. [@hanmich](https://github.com/hanmich)
     - Kathy V. [@vukathy031](https://github.com/vukathy031)
     - Mia C. [@absoluteconfusion](https://github.com/absoluteconfusion)
     - Branden W. [@RedNovaUltimate](https://github.com/RedNovaUltimate)
